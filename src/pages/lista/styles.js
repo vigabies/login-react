@@ -9,7 +9,7 @@ const Styles = StyleSheet.create({
 
   Cor: {
     backgroundColor: '#F0F8FF',
-    marginBottom: '10%',
+    marginBottom: '5%',
     marginLeft: '5%',
     marginRight: '5%',
     borderRadius: 10,
@@ -27,6 +27,24 @@ const Styles = StyleSheet.create({
     marginTop: '2%',
     marginLeft: '2%',
     marginBottom: '2%',
+  },
+
+  delet: {
+    backgroundColor: '#5e0707',
+    justifyContent: 'space-around',
+    margin: '5%',
+    marginLeft: '15%',
+    marginRight: '15%',
+    borderRadius: 20,
+    height: '5%',
+    borderWidth: 1,
+    borderColor: '#7a4851',
+  },
+
+  textdel: {
+    fontWeight: '400',
+    textAlign: 'center',
+    color: '#fff',
   },
 });
 

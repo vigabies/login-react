@@ -5,7 +5,8 @@ import StackNavegation from './src/routes';
 export default function App() {
   return (
     <NavigationContainer>
-      <StackNavegation></StackNavegation>
+      <StackNavegation>
+      </StackNavegation>
     </NavigationContainer>
   );
 }

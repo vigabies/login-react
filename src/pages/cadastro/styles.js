@@ -13,6 +13,7 @@ const Styles = StyleSheet.create({
     marginTop: '3%',
     marginBottom: '3%',
     color: '#1A3662',
+    fontWeight: '600',
   },
 
   Info: {
