@@ -3,6 +3,7 @@ import {View, Text, TouchableOpacity, TextInput} from 'react-native';
 import Styles from './styles';
 import {Navegar} from './function';
 import {useNavigation, useRoute} from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Feather';
 
 export default function Cadastro() {
   const [nome, setNome] = useState('');
@@ -58,6 +59,7 @@ export default function Cadastro() {
           <Text style={Styles.Text}>CADASTRAR</Text>
         </TouchableOpacity>
       </View>
+
     </View>
   );
 }

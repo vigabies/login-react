@@ -3,6 +3,7 @@ import {View, Text, Image, FlatList, TouchableOpacity} from 'react-native';
 import Styles from './styles';
 import {useRoute} from '@react-navigation/native';
 import {handleRemove, Item} from './function';
+import Icon from 'react-native-vector-icons/Feather';
 
 // a const array é importando para manipulação de JSON -- json é "[{}]".
 const ARRAY = [
